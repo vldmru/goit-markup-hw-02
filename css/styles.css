@@ -1,0 +1,177 @@
+/* line color #ECECEC */
+:root {
+   --main-background: #ffffff;
+   --title-background: #2F303A;
+   --section-background: #F5F4FA;
+   --main-text: #212121;
+   --logo-links-hower: #2196F3;
+   --descripting-text: #757575;
+}
+
+/* Main preset */
+body {
+   background-color: var(--main-background);
+   color: var(--main-text);
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
+   font-size: 14px;
+   line-height: 1.14;
+}
+
+.section-head {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+}
+
+.decoration {
+   text-decoration: none;
+}
+
+/* Logotype styles */
+.logotype {
+   color: var(--logo-links-hower);
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+}
+
+/* List marks drop */
+.list {
+   list-style: none;
+}
+
+/* Site navigation styles */
+.site-nav .link,
+.contacts-list {
+   color: var(--main-text);
+   font-weight: 500;
+   letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:active,
+.contacts .link:hover,
+.contacts .link:active,
+.contact:hover,
+.contact:active {
+   color: var(--logo-links-hower);
+}
+
+/* Contacts styles */
+.contacts .link {
+   color: var(--descripting-text);
+}
+
+/* Title section styles */
+.title {
+   background-color: var(--title-background);
+   color: var(--main-background);
+}
+
+.heading {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+.heading-button {
+   color: var(--main-background);
+   background-color: var(--logo-links-hower);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   cursor: pointer;
+}
+
+/* Heroic section styles */
+
+.description {
+   color: var(--descripting-text);
+   line-height: 1.71;
+}
+
+.list-head {
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+/* Our team class section styles */
+
+.team {
+   background-color: var(--section-background);
+}
+
+.biography {
+   background-color: var(--main-background);
+}
+
+.biography-head {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.9;
+   text-align: center;
+}
+
+.biography-description {
+   color: var(--descripting-text);
+   font-size: 16px;
+   line-height: 1.9;
+   text-align: center;
+}
+
+/* Footer section styles */
+
+.footer{
+   background-color: var(--title-background);
+}
+
+.address {
+   color: var(--main-background);
+   line-height: 1.71;
+}
+
+
+.contact {
+   color: var(--descripting-text);
+}
+
+
+/* Portfolio buttons  */
+.filter {
+   color: var(--main-text);
+   background-color: var(--section-background);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   /* 1.63 fact */
+   text-align: center;
+}
+
+.filter:hover,
+.filter:active {
+   color: var(--main-background);
+   background-color: var(--logo-links-hower);
+}
+
+/* Portfolio main  */
+.portfolio-head {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.portfolio-description{
+   font-size: 16px;
+   line-height: 188px;
+}
