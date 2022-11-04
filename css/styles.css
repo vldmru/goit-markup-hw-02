@@ -6,6 +6,7 @@
    --main-text: #212121;
    --logo-links-hower: #2196F3;
    --descripting-text: #757575;
+   --logotype-second-color: #000000;
 }
 
 /* Main preset */
@@ -18,6 +19,14 @@ body {
    line-height: 1.14;
 }
 
+.logotype-first {
+   color: var(--logotype-second-color);
+}
+
+.logotype-second {
+   color: var(--main-background);
+}
+
 .section-head {
    font-weight: 700;
    font-size: 36px;
@@ -27,6 +36,7 @@ body {
 
 .decoration {
    text-decoration: none;
+   font-style: normal;
 }
 
 /* Logotype styles */
@@ -53,10 +63,13 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:active,
+.site-nav .link:focus,
 .contacts .link:hover,
 .contacts .link:active,
+.contacts .link:focus,
 .contact:hover,
-.contact:active {
+.contact:active,
+.contact:focus {
    color: var(--logo-links-hower);
 }
 
@@ -103,6 +116,7 @@ body {
 .list-head {
    font-weight: 700;
    text-transform: uppercase;
+   font-size: inherit;
 }
 
 /* Our team class section styles */
@@ -158,7 +172,8 @@ body {
 }
 
 .filter:hover,
-.filter:active {
+.filter:active,
+.filter:focus {
    color: var(--main-background);
    background-color: var(--logo-links-hower);
 }
@@ -173,5 +188,5 @@ body {
 
 .portfolio-description{
    font-size: 16px;
-   line-height: 188px;
+   line-height: 1.88;
 }
