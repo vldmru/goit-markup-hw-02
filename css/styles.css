@@ -7,6 +7,7 @@
    --logo-links-hower: #2196F3;
    --descripting-text: #757575;
    --logotype-second-color: #000000;
+   --contact_text: rgba(255, 255, 255, 0.6);
 }
 
 /* Main preset */
@@ -59,19 +60,17 @@ a {
 /* Site navigation styles */
 .site-nav .link,
 .contacts-list {
-   color: var(--main-text);
+   color: inherit;
    font-weight: 500;
    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
-.site-nav .link:active,
 .site-nav .link:focus,
+.site-nav .link.current,
 .contacts .link:hover,
-.contacts .link:active,
 .contacts .link:focus,
 .contact:hover,
-.contact:active,
 .contact:focus {
    color: var(--logo-links-hower);
 }
@@ -159,7 +158,7 @@ a {
 
 
 .contact {
-   color: var(--descripting-text);
+   color: var(--contact_text);
 }
 
 
@@ -187,9 +186,11 @@ a {
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
+   color: var(--main-text);
 }
 
 .portfolio-description{
    font-size: 16px;
    line-height: 1.88;
+   color: var(--descripting-text);
 }
